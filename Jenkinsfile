@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         PRUEBA = "Jenkins-prueba"
-        EC2INSTANCEDEV = "ec2-user@3.237.69.190"
-        REGISTRY = "roxsross12"
+        EC2INSTANCEDEV = "kabexa@192.168.10.22"
+        REGISTRY = "kabexa22"
         APPNAME  = "node-app"
         IMAGE     = "node-app-develop"
         VERSION  = "1.0.0"
